@@ -249,6 +249,7 @@ main label input::placeholder {
     justify-content: center; 
     align-items: center; 
     position: relative;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(253,253,255,1) 55%, rgb(233, 233, 233) 90%);
 }
 
 .sobre img {
@@ -279,6 +280,7 @@ main label input::placeholder {
 }
 
 .second-container {
+    margin-top: 18rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -346,5 +348,101 @@ main label input::placeholder {
     margin-left: 10rem;
 }
 
+.third-container{
+    display: flex;
+    width: 1150px;
+    background-color: #f8ce77;
+    padding: 3rem 3rem;
+    border-radius: 15px;
+}
 
+.third-text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
 
+.third-text h1{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.third-text p{
+    color: #666;
+}
+
+.footer {
+    background-color: #fff;
+    color: #333;
+    padding: 2rem 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #000000;
+    font-weight: 500;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.footer-section ul li a:hover {
+    color: #f09102;
+    text-decoration: underline;
+}
+
+.net-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 1rem;
+}
+
+.icon-sm{
+    border: 1px solid rgb(204, 204, 204);
+    color: #666;
+    padding: .5rem .5rem;
+    border-radius: 50%;
+}
+
+.net-container p{
+    color: #666;
+    font-weight: 500;
+    font-size: .7rem;
+}
