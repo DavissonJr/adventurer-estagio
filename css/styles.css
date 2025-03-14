@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+section{
+    height: 100dvh;
+}
+
+.home{
+    height: 130dvh;
+    background-color: #f9ce89;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8ce77;
+    height: 4.5rem;
+}
+
+header h1{
+    margin: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 30px;
+    font-weight: 500;
+}
+
+nav ul li a, .nav-btn{
+    color: black;
+}
+
+.nav-btn{
+    margin-right: 3rem;
+    padding: .7rem .7rem;
+    background-color: #ffc107;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.nav-btn:hover{
+    background-color: #f09102;
+}
+
+.text-strong{
+    color: #f09102;
+}
+
+.form-text{
+    padding: .3rem .3rem;
+}
+
+.main{
+    display: flex;
+    position: relative;
+    top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+.form-box{
+    display: flex;
+    gap: 15px;
+}
+
+.submit-btn{
+    padding: 3px 12px;
+    border: none;
+    border-radius: 3px;
+    font-size: .8rem; 
+    color: #fff; 
+    background-color: #f09102;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
+
+}
+
+main img{
+    margin-left: 8rem;
+    width: 40%;
+}
+
+main h1{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    white-space: normal;
+    color: #444444;
+}
+
+main p{
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+main label input{
+    height: 2rem;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px; 
+    font-size: .8rem; 
+    color: #333; 
+    background-color: #f9f9f9;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
+}
+
+main label input:focus {
+    border-color: #f09102; 
+    outline: none; 
+    box-shadow: 0 0 5px #f09102; 
+}
+
+main label input::placeholder {
+    opacity: 0.8;
+    color: #999; 
+}
+
+.home-rodape {
+    width: 98%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 1rem;
+    left: 0; 
+    right: 0;
+    background-color: #fff0c4;
+    padding: 1rem; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px;
+    height: 300px;
+}
+
+.home-rodape h1 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #444444;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card p.icon {
+    font-size: 1.8rem;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #666666;
+    line-height: 1.4;
+}
+
+.aventura {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+.aventura h1 {
+    font-size: 2.5rem; 
+    margin-top: -2rem;
+}
+
+.aventura p {
+    font-size: 1.2rem; 
+    margin-bottom: 2rem;
+}
+
+.img-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    max-width: 1200px; 
+    width: 100%; 
+    padding: 0 20px; 
+}
+
+.aventura img {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px; 
+    transition: all 0.7s ease; 
+    filter: grayscale(100%);
+}
+
+.aventura img:hover {
+    transform: scale(1.05); 
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.sobre {
+    height: 200dvh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+}
+
+.sobre img {
+    width: 330px;
+    margin-right: 3rem;
+}
+
+.first-container {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; 
+    max-width: 1000px; 
+    height: 300px;
+    position: absolute; 
+    top: 0;
+}
+
+.about-content h1{
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.about-content p{
+    font-weight: 400;
+    color: #666;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.main-title {
+    text-align: left;
+    color: #333;
+    width: 76%;
+    margin-bottom: -2.5rem;
+}
+
+.content-second-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    flex: 1;
+}
+
+.second-cards-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.card-content h1 {
+    color: #f09102;
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.card-content p {
+    color: #666;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 7rem;
+    margin-left: 10rem;
+}
+
+
+
