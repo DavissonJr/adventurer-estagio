@@ -10,11 +10,12 @@
 </head>
 <body>
     <!-- home -->
-    <section class="home">
+    <section class="home" id="home">
 
         <header>
             <h1>Adventurer</h1>
             <nav>
+                <ion-icon id="menu__icon" name="menu-outline"></ion-icon>
                 <ul>
                     <li><a href="#">Início</a></li>
                     <li><a href="#aventuras">Aventuras</a></li>
@@ -23,12 +24,13 @@
                     <li><a href="#">Blog</a></li>
                 </ul>
             </nav>
-            <a class="nav-btn" href="#">Inicie a aventura!</a>
+            <a class="nav-btn" href="#">Inicie sua aventura!</a>
         </header>
 
         <main class="main">
+            <a class="subir__botao" href="#home"><ion-icon name="chevron-up-outline"></ion-icon></a>
             <div class="main-content">
-                <h1>Estamos aqui para encontrar<br><span class="text-strong">Sua Nova Aventura 🌞</span></h1>
+                <h1>Estamos aqui para encontrar<span class="text-strong">Sua Nova Aventura 🌞</span></h1>
                 <p>Tentamos deixar sua vida mais animada e oferecemos tudo o que você precisa para uma viagem memorável da maneira mais simples possível</p>
                 <div class="form-box">
                     <label>
@@ -42,46 +44,53 @@
             </div>
             <img class="home-img" src="assets/viagem-cachorro.svg" alt="Imagem de homem planejando viagem ao lado de seu cachorro">
         </main>
-
-        <div class="home-rodape">
-            <div class="cards-container">
-                <h1>Por que escolher<br>a gente?</h1>
-                <div class="card">
-                    <p class="icon">⭐</p>
-                    <h3>Pacotes especiais</h3>
-                    <p>Incentivamos você a tentar novidades</p>
-                </div>
-                <div class="card">
-                    <p class="icon">🔄️</p>
-                    <h3>Simplificação</h3>
-                    <p>Facilitamos como você viaja pelos melhores lugares do mundo</p>
-                </div>
-                <div class="card">
-                    <p class="icon">🔥</p>
-                    <h3>Melhores serviços</h3>
-                    <p>Criamos experiências especiais para você</p>
-                </div>
-                <div class="card">
-                    <p class="icon">🎧</p>
-                    <h3>Suporte 24h</h3>
-                    <p>A qualquer momento, de qualquer lugar, estamos aqui para te atender</p>
+            <div class="home-rodape">
+                <div class="cards-container">
+                    <h1>Por que escolher a gente?</h1>
+                    <div class="card">
+                        <p class="icon">⭐</p>
+                        <h3>Pacotes especiais</h3>
+                        <p class="p-text">Incentivamos você a tentar novidades</p>
+                    </div>
+                    <div class="card">
+                        <p class="icon">🔄️</p>
+                        <h3>Simplificação</h3>
+                        <p class="p-text">Facilitamos como você viaja pelos melhores lugares do mundo</p>
+                    </div>
+                    <div class="card">
+                        <p class="icon">🔥</p>
+                        <h3>Melhores serviços</h3>
+                        <p class="p-text">Criamos experiências especiais para você</p>
+                    </div>
+                    <div class="card">
+                        <p class="icon">🎧</p>
+                        <h3>Suporte 24h</h3>
+                        <p class="p-text">A qualquer momento, de qualquer lugar, estamos aqui para te atender</p>
+                    </div>
                 </div>
             </div>
+        
+
+        
 
     </section>
     <!-- aventura -->
     <section class="aventura" id="aventuras">
+        <a class="subir__botao" href="#home"><ion-icon name="chevron-up-outline"></ion-icon></a>
+        <div class="text-adv">
         <h1>Nossos melhores destinos</h1>
         <p>Vamos encontrar alguns deles</p>
-        <div class="img-box">
-            <img class="aventura-img" src="assets/inverno.png" alt="Imagem com um trem no inverno">
-            <img class="aventura-img" src="assets/outono.png" alt="Imagem com um trem no inverno">
-            <img class="aventura-img" src="assets/primavera.png" alt="Imagem com um trem no inverno">
-            <img class="aventura-img" src="assets/verao.png" alt="Imagem com um trem no inverno">
         </div>
+        <div class="img-box">
+        <img class="aventura-img" src="assets/inverno.png" alt="Imagem com um trem no inverno">
+        <img class="aventura-img" src="assets/outono.png" alt="Imagem com um trem no inverno">
+        <img class="aventura-img" src="assets/primavera.png" alt="Imagem com um trem no inverno">
+        <img class="aventura-img" src="assets/verao.png" alt="Imagem com um trem no inverno">
+         </div>
     </section>
     <!-- sobre -->
     <section class="sobre" id="sobre">
+        <a class="subir__botao" href="#home"><ion-icon name="chevron-up-outline"></ion-icon></a>
         <div class="first-container">
             <img class="objective-img" src="assets/objetivo.svg" alt="Homem segurando uma flecha acertando o centro de um alvo">
             <div class="about-content">
@@ -90,9 +99,9 @@
             </div>
         </div>
         <div class="second-container">
-            <h1 class="main-title">Temos muita sorte de ter você e sua <br>confiança</h1>
+            <div class="second-container-without-img">
+            <h1 class="main-title">Temos muita sorte de ter você e sua confiança</h1>
             <div class="content-second-container">
-                <div class="second-cards-container">
                     <div class="card-content">
                         <h1>+5000</h1>
                         <p>Aventureiros</p>
@@ -118,19 +127,18 @@
                         <p>Suporte ao Cliente</p>
                     </div>
                 </div>
-                <div class="image-container">
-                    <img src="assets/comunidade.svg" alt="Imagem de pessoas">
-                </div>
             </div>
-            <div class="third-container">
-                <img src="assets/global.svg" alt="Homem andando ao redor do mundo">
-                <div class="third-text">
-                <h1>Junte-se a nossa familia e torne-se um aventureiro</h1>
-                <p>Embarque na jornada dos seus sonhos com quem entende de aventuras incríveis! Ao se juntar à nossa família de viajantes,
-                    você não estará apenas explorando novos destinos, mas criando memórias, descobrindo culturas fascinantes e vivendo
-                    experiências únicas ao redor do mundo. Não importa se você é um mochileiro de primeira viagem ou um expert em aventuras — juntos, vamos além!</p>
-                <p>Vem com a gente e transforme cada viagem em uma nova história para contar. Seja o aventureiro que sempre sonhou ser!</p>
-                </div>
+            <img class="second-img" src="assets/comunidade.svg" alt="Imagem de pessoas">
+        </div>
+
+        <div class="third-container">
+            <img src="assets/global.svg" alt="Homem andando ao redor do mundo">
+            <div class="third-text">
+            <h1>Junte-se a nossa familia e torne-se um aventureiro</h1>
+            <p>Embarque na jornada dos seus sonhos com quem entende de aventuras incríveis! Ao se juntar à nossa família de viajantes,
+                você não estará apenas explorando novos destinos, mas criando memórias, descobrindo culturas fascinantes e vivendo
+                experiências únicas ao redor do mundo. Não importa se você é um mochileiro de primeira viagem ou um expert em aventuras — juntos, vamos além!</p>
+            <p>Vem com a gente e transforme cada viagem em uma nova história para contar. Seja o aventureiro que sempre sonhou ser!</p>
             </div>
         </div>
     </section>
@@ -168,7 +176,7 @@
                 <ion-icon class="icon-sm" name="logo-linkedin"></ion-icon>
             </div>
             <p>Adventurer © 2025</p>
-         </div>
+            </div>
         </div>
     </footer>
 </body>
