@@ -22,7 +22,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 48px;
+    height: 72px;
     background-color: #f8ce77;
     margin-bottom: 20px;
     width: 100%;
@@ -43,6 +43,21 @@ nav, header h1{
 
 ul, .nav-btn{
     display:  none;
+}
+
+nav ul li {
+height: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+nav ul li a{
+    padding: 5px;
+}
+
+nav ul li a:hover{
+    background-color: #f5b810;
 }
 
 .subir__botao{
@@ -250,6 +265,7 @@ main label input::placeholder {
 
 .main-title{
     margin-bottom: 10px;
+    color: #333;
 }
 
 .content-second-container{
@@ -454,7 +470,7 @@ main label input::placeholder {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        width: 880px;
+        width: 98%;
         height: 300px
     }
 
@@ -682,7 +698,7 @@ main label input::placeholder {
     }
 
     .main img{
-        width: 400px;
+        width: 700px;
     }
 
     .main-content h1{
@@ -707,7 +723,7 @@ main label input::placeholder {
     }
 
     .home-rodape{
-        margin-top: 8rem;
+        margin-top: 20rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -743,11 +759,12 @@ main label input::placeholder {
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 100dvh;
         
     }
 
     .text-adv{
-        margin-top: 20px;
+        margin-top: -3rem;
         display: flex;
         flex-direction: column;
     }
@@ -755,12 +772,12 @@ main label input::placeholder {
     .aventura .img-box{
         display: flex;
         flex-direction: row;
-        gap: 15px;
+        gap: 25px;
     }
 
     .aventura img{
-        height: 550px;
-        width: 330px;
+        height: 480px;
+        width: 300px;
     }
 
     .first-container{
