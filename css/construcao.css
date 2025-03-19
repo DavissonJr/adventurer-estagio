@@ -173,15 +173,17 @@ nav ul li {
     }
 
     .main{
+        margin-top: 23px;
         width: 100%;
         display: flex;
         flex-direction: row;
         align-items: start;
         justify-content: center;
-        height: 60dvh;
+        height: 65dvh;
     }
 
     .main-content{
+        margin-top: 20px;
         display: flex;
         gap: 50px;
     }
@@ -208,10 +210,11 @@ nav ul li {
         width: 100%;
         margin: 0 auto;
         height: 240px;
+        margin-bottom: 10px;
     }
     
     .footer-section {
-        margin-top: 10px;
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
     }
@@ -226,15 +229,15 @@ nav ul li {
         display: flex;
         flex-direction: column;
         list-style: none;
-        padding: 0;
         text-align: center;
+
     }
     
     .footer-section ul li a {
         color: #666;
         flex-direction: column;
         text-decoration: none;
-        font-size: .9rem;
+        font-size: 0.9rem;
         font-weight: 300;
     }
     
@@ -245,14 +248,12 @@ nav ul li {
     .net-container {
         text-align: center;
         width: 100%;
-        margin-bottom: 10px;
     }
     
     .social-media {
         display: flex;
         justify-content: center;
         gap: 15px;
-        margin-bottom: 5px;
     }
     
     .icon-sm {
@@ -270,7 +271,6 @@ nav ul li {
 @media (min-width: 1200px){
     body{
         height: 100dvh;
-        overflow: hidden;
     }
 
     @media (min-width: 1200px){
@@ -312,7 +312,7 @@ nav ul li {
         }
     
         .main-content{
-            margin-top: 0;
+            margin-top: 25px;
         }
 
         .footer {
