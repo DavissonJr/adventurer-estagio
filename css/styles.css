@@ -121,7 +121,7 @@ nav ul li a:hover{
 
 
 input{
-    padding: 5px 5px;
+    padding: 5px;
     color: #333;
     background-color: #f9f9f9;
     border: none;
@@ -404,7 +404,7 @@ main label input::placeholder {
         display: none;
     }
 
-    ul{
+    ul, .nav-button{
         display: flex;
     }
 

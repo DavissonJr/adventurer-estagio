@@ -273,7 +273,7 @@ nav ul li {
             display: none;
         }
     
-        ul{
+        ul, .nav-btn{
             display: flex;
         }
     

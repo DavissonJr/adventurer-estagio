@@ -20,6 +20,15 @@
     height: 100dvh;
 }
 
+.nav-btn{
+    color: black;
+    font-weight: 300;
+    padding: 10px;
+    background-color: #f5b810;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -354,6 +363,10 @@ form{
         background-color: #fff;
         color: black;
         font-family: Arial, sans-serif;
+    }
+
+    .nav-btn{
+        display: flex;
     }
 
     header{
