@@ -269,16 +269,11 @@ nav ul li {
 }
 
 @media (min-width: 1200px){
-    body{
-        height: 100dvh;
-    }
-
-    @media (min-width: 1200px){
         #menu__icon{
             display: none;
         }
     
-        ul, .nav-btn{
+        ul{
             display: flex;
         }
     
@@ -397,4 +392,3 @@ nav ul li {
             color: #666;
         }
     }
-}
