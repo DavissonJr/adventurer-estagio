@@ -132,6 +132,14 @@ input{
     background-color: #f09102;
     transition: all 0.3s ease-in-out;
     margin-bottom: 8px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.submit-btn:hover{
+    transform: scale(1.05);
+    color: #f09102;
+    background-color: #fff;
 }
 
 main label input:focus {
@@ -720,7 +728,6 @@ main label input::placeholder {
     
     .main-content {
         max-width: 500px;
-        margin-right: 30px;
     }
 
     .main img{
