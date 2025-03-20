@@ -199,7 +199,12 @@ main label input::placeholder {
 
 .image-span{
     position: relative;
-    overflow: hidden;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.image-span:hover{
+    filter: grayscale(0%);
 }
 
 .image-span span{
@@ -237,8 +242,6 @@ main label input::placeholder {
     margin-bottom: 20px;
     height: 100%;
     object-fit: cover;
-    filter: grayscale(100%);
-    transition: all 0.3s ease-in-out;
 }
 
 .aventura img:hover{
