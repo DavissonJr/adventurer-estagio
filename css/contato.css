@@ -10,14 +10,16 @@
     list-style: none;
 }
 
-
+.body{
+    min-height: 100dvh;
+}
 
 .home{
     background-color: #f9ce89;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100dvh;
+    height: 85dvh;
 }
 
 .nav-btn{
@@ -73,15 +75,16 @@ nav ul li a:hover{
 
 main{
     width: 100%;
-    height: 70dvh;
 }
 
 .main-content{
+    margin-top: 15px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .main-content h1{
@@ -159,46 +162,46 @@ form{
 }
 
 .footer-section{
-        display: none;
+    display: none;
 }
-    
+
 .footer {
-        position: absolute;
-        bottom: 0;
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-        height: 130px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    justify-content: end;
+    align-items: center;
 }
-    
+
+/* html.hydrated {
+    background-color: red; /* Apenas para visualizar o elemento */
+/* } */
+
 .net-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
 }
-    
+
 .net-container p{
-        margin-top: 10px;
-        font-weight: 300;
-        color: #666;
-        font-size: .7rem;
-        margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #666;
+    font-size: .7rem;
+    margin-bottom: 10px;
 }
-    
+
 .social-media{
-        display: flex;
-        gap: 16px;
+    display: flex;
+    gap: 16px;
 }
-    
+
 .social-media ion-icon{
-        padding: 10px;
-        border:1px solid #999;
-        color: #666;
-        border-radius: 50%;
+    padding: 10px;
+    border:1px solid #999;
+    color: #666;
+    border-radius: 50%;
 }
 
 @media (min-width: 768px){
