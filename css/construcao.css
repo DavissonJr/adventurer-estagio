@@ -68,7 +68,7 @@ nav ul li {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    height: auto;
+    height: 75dvh;
 }
 
 .main-content h1{
@@ -100,11 +100,14 @@ nav ul li {
 .footer {
     display: flex;
     flex-direction: column;
-    height: 130px;
+    height: 5rem;
     justify-content: end;
     align-items: center;
-    margin-top: auto;
 }
+
+/* html.hydrated {
+    background-color: red; /* Apenas para visualizar o elemento */
+/* } */
 
 .net-container{
     display: flex;
